@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Fira+Sans&family=Permanent+Marker&family=Poppins:wght@500&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: url(./IMG/background3.jpg);
-    background-position: center;
+    background: url(./IMG/img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Edu TAS Beginner', cursive;
 }
 .heading{
     text-align: center;
@@ -17,7 +17,12 @@ body{
     color: white;
 }
 .heading h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 600;
 }
 .container{
     display: flex;
@@ -29,15 +34,16 @@ body{
     margin-top: 10%;
 }
 .box{
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.614);
     width: 6.6rem;
     height: 6rem;
-    margin: 1rem 1rem;
+    margin: 1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     border: rgba(230, 18, 18, 0.569) 3px solid;
+    box-shadow: 0 0 10px black;
     transition: all 0.09s;
 }
 .playing{
@@ -49,7 +55,7 @@ body{
     font-size: 2rem;
     color:white;
 }
- .box p{
+.box p{
     color: yellow;
     text-transform: uppercase;
 }
